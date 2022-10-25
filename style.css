@@ -1,0 +1,67 @@
+.contact {
+    max-width: 1500px;
+    margin: 0 auto;
+    border: 10px solid gray;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ct {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.main {
+    width:  700px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    width: 100%;
+    position: relative;
+    height: 50rem;
+    background-image: url(img/job2.jpg),url(img/qq.jfif),url(img/qq.jfif);
+    background-size: contain,32.5% 100%,32.5% 100%;
+    background-position: center,left,right;
+    background-color: lightgray;
+    background-blend-mode: normal,multiply,multiply;
+    background-repeat: no-repeat;
+}
+
+.info {
+    color: #fff;
+    width: 50rem;
+    position: absolute;
+    bottom: 10rem;
+    left: 30%;
+    translate: -50% -50%;
+}
+
+.info h1 {
+    font-size: 46px;
+}
+
